@@ -65,7 +65,7 @@ def main():
 
 
 try:
-   db = MySQLdb.connect("rm-2ze4ecy67dzly1rvao.mysql.rds.aliyuncs.com", "yutao", "Pa88word", "39tnbdata", charset="utf8")
+   db = MySQLdb.connect("xxx", "xxx", "xxx", "xxx", charset="utf8")
    cursor = db.cursor()
 except:
    print "unable to connect db"
