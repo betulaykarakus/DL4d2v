@@ -1,0 +1,103 @@
+.ppshow {float:left; width:628px; padding:10px 0; overflow:hidden; border:#d8e6e6 1px solid; background:#fbfdfd; font:12px "宋体";}
+        .ppshow a {color:#333; text-decoration:none;}
+        .ppshow a:hover {color:#f60; text-decoration:underline;}
+        .pptitle {flaot:left;width:512px;padding:0 0 5px 35px; font:14px "宋体"; background:url(http://image.39.net/images/icon1/8.gif) no-repeat 11px -1px;}
+        .ppshow .picbox {float:left;width:135px;margin:5px 7px 0 13px; display:inline;}
+        .ppshow .picbox div{text-align:center;}
+        .ppshow .picbox .pic img {border:none; width:135px; height:100px;}
+        .ppshow .picbox .text {line-height:16px;padding:5px 0 0 0;}
+    
+精彩推荐
+
+
+
+鼓励大学生捐精都因上班族精液太残
+
+
+
+
+性感餐厅 小心爆了你的心血管
+
+
+
+
+万人迷贝克汉姆谢顶了？
+
+
+
+
+糖尿病性功能障碍太杯具？！
+
+
+
+ 　　糖尿病患者往往一经诊断，将不得不进行严格的饮食控制。对于正常人来说，饮食尚可偶尔肆无忌惮，但对于糖尿病人来说，每一餐的饮食都不得不精打细算。很多糖尿病病人都知道日常饮食应该结合自身的情况控制总热量，多吃粗粮和粗纤维食物，可是哪些粗纤维食物是最有益的呢?
+　　粗纤维食物推荐5种豆
+
+　　毛豆
+　　粗纤维含量：2.1(每100g毛豆含2.1g粗纤维)
+
+
+
+
+ 
+　　毛豆中的卵磷脂是大脑发育不可缺少的营养之一，有助于改善大脑功能，含有丰富的食物纤维，不仅能改善便秘，还有利于血压和胆固醇的降低，对糖尿病心血管病人很有好处。
+
+
+
+
+
+　　　热点文章
+
+
+
+
+
+
+
+吃番茄有助预防糖尿病
+点击：598832
+
+
+糖尿病患者出游必备单品!
+点击：597503
+
+
+糖尿病女性患者少穿高跟鞋
+点击：567741
+
+
+每晚睡前玩iPhone恐增加糖尿病风险
+点击：451238
+
+
+糖尿病膳食 5种粗纤维豆类益健康
+点击：422294
+
+
+婴儿过早喝牛奶或致糖尿病
+点击：393913
+
+
+糖尿病患者健身别走“石子路”
+点击：361547
+
+
+与美女约会或加重糖尿病！
+点击：317863
+
+
+惊！女白领用糖尿病药减肥！
+点击：256207
+
+
+中年人患糖尿病 寿限减6年
+点击：255211
+
+
+
+
+
+
+
+
+39健康网(www.39.net)专稿，未经书面授权请勿转载。

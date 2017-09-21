@@ -1,0 +1,16 @@
+//<![CDATA[
+ac_as_id = 2586;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+
+　　海产品是一种很好的食品，味道鲜美，营养丰富，能提供给人大量的优质蛋白、脂肪和丰富的膳食纤维，又含有大量人体所需的微量元素，糖尿患者适当食用是有益无害的。不同的海产品所含脂肪和热量不同，因此要了解所要吃的海产品所含的脂肪和热量多少。有些海产晶如虾皮、水浸鲜贝、海蟹、对虾，蚌肉含有较高的脂肪和热量，要少食。海带含碘较多，食用后可补充碘，但多食可致碘摄入过多也是有害的。海鱼、贝类内含有致病微生物，如未加工生食是有害的，所以我们提倡不吃生鱼片，要吃熟食。 
+（实习编辑：吴伟棋）

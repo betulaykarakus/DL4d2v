@@ -1,0 +1,14 @@
+//<![CDATA[
+ac_as_id = 2586;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+ 　　研究人员通过对1.5万多名英国女性的医疗记录进行分析后发现：与13岁开始来月经的女孩相比，那些在8～11岁来月经的女孩成年后患上2型糖尿病的可能性会高出70%。　　研究人员指出，此次研究表明，提早进入青春期会增加女性今后患上代谢类疾病的风险。此前曾有研究显示，青春期来得早的女孩更容易患上肥胖症、心脏病和某些癌症。研究人员分析，体重超重(体质指数过高)是一个重要原因。脂肪组织能产生激素，对内分泌系统起到一定的干扰作用。因此，父母要从小给孩子灌输健康的饮食理念，帮他们培养体育锻炼的好习惯。

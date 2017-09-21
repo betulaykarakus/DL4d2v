@@ -1,0 +1,145 @@
+ppshow
+float
+left
+width
+628px
+padding
+10px
+0
+overflow
+hidden
+border
+d8e6e6
+1px
+solid
+background
+fbfdfd
+font
+12px
+宋体 "
+}
+ppshow
+a
+color
+333
+text decoration
+none
+}
+ppshow
+a
+hover
+color
+f60
+text decoration
+underline
+}
+pptitle
+flaot
+left
+width
+512px
+padding
+0
+0
+5px
+35px
+font
+14px
+宋体 "
+background
+url http
+image 3net images icongif )
+no repeat
+11px
+1px
+}
+ppshow
+picbox
+float
+left
+width
+135px
+margin
+5px
+7px
+0
+13px
+display
+inline
+}
+ppshow
+picbox
+div text align
+center
+}
+ppshow
+picbox
+pic
+img
+border
+none
+width
+135px
+height
+100px
+}
+ppshow
+picbox
+text
+line height
+16px
+padding
+5px
+0
+0
+0
+}
+精彩 推荐
+鼓励 大学生 捐精 都 因 上班族 精液 太残
+性感 餐厅
+小心 爆 你 心血管
+万人迷 贝克汉姆 谢顶 了
+糖尿病 性功能障碍 太杯 具
+糖尿病患者 往往 一经 诊断 将 不得不 进行 严格 饮食控制
+对于 正常人 来说 饮食 尚可 偶尔 肆无忌惮 但 对于 糖尿病人 来说 每 一餐 饮食 都 不得不 精打细算
+很多 糖尿病 病人 都 知道 日常 饮食 应该 结合 自身 情况 控制 总热量 多吃 粗粮 和 粗纤维 食物 可是 哪些 粗纤维 食物 是 最 有益 呢
+粗纤维 食物 推荐 种豆
+毛豆
+粗纤维 含量
+2.每 100g 毛豆 含 2.g 粗纤维 )
+毛豆 卵磷脂 是 大脑 发育 不可 缺少 营养 之一 有助于 改善 大脑 功能 含有 丰富 食物 纤维 不仅 能 改善 便秘 还 有利于 血压 和 胆固醇 降低 对 糖尿病 心血管病 人 很 有 好处
+热点 文章
+吃 番茄 有助 预防 糖尿病
+点击
+598832
+糖尿病患者 出游 必备 单品
+点击
+597503
+糖尿病 女性 患者 少穿 高跟鞋
+点击
+567741
+每晚 睡前 玩 iPhone 恐 增加 糖尿病风险
+点击
+451238
+糖尿病 膳食
+种 粗纤维 豆类 益 健康
+点击
+422294
+婴儿 过早 喝牛奶 或致 糖尿病
+点击
+393913
+糖尿病患者 健身 别 走 石子路 ”
+点击
+361547
+与 美女 约会 或 加重 糖尿病
+点击
+317863
+惊
+女白领 用 糖尿病 药 减肥
+点击
+256207
+中年人 患 糖尿病
+寿限 减 年
+点击
+255211
+3健康网 www 3net 专稿 未经 书面 授权 请勿 转载 

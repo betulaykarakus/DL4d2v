@@ -1,0 +1,6 @@
+if (!window.jQuery)
+  document.write("<script language='javascript' src='http://image.39.net/hits/jquery-1.4.2.min.js'><\/script>");
+
+
+
+   jQuery('a[keycmd]').art_ContentEvent({keycmd:'keycmd'});

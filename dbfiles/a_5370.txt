@@ -1,0 +1,17 @@
+//<![CDATA[
+ac_as_id = 2586;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+
+　　英国纽卡素大学的一项研究邀请了20人参加，其中10人为糖尿病患者，其余10人的血糖则正常，参加者必须每日步行最少1万步，即约45分钟。 
+　　他们在研究开始前及8星期后都要接受磁力共振检查，比较步行前后身体热量消耗与血糖水平关系，发现患者有适量运动，每天可多燃烧20%热量，令更多糖份储藏在肌肉内，而不是在血液，避免血糖水平过高。 
+（实习编辑：朱文斌）

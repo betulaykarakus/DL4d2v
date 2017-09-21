@@ -1,0 +1,116 @@
+ppshow
+float
+left
+width
+628px
+padding
+10px
+0
+overflow
+hidden
+border
+d8e6e6
+1px
+solid
+background
+fbfdfd
+font
+12px
+宋体 "
+}
+ppshow
+a
+color
+333
+text decoration
+none
+}
+ppshow
+a
+hover
+color
+f60
+text decoration
+underline
+}
+pptitle
+flaot
+left
+width
+512px
+padding
+0
+0
+5px
+35px
+font
+14px
+宋体 "
+background
+url http
+image 3net images icongif )
+no repeat
+11px
+1px
+}
+ppshow
+picbox
+float
+left
+width
+135px
+margin
+5px
+7px
+0
+13px
+display
+inline
+}
+ppshow
+picbox
+div text align
+center
+}
+ppshow
+picbox
+pic
+img
+border
+none
+width
+135px
+height
+100px
+}
+ppshow
+picbox
+text
+line height
+16px
+padding
+5px
+0
+0
+0
+}
+精彩 推荐
+鼓励 大学生 捐精 都 因 上班族 精液 太残
+性感 餐厅
+小心 爆 你 心血管
+万人迷 贝克汉姆 谢顶 了
+糖尿病 性功能障碍 太杯 具
+苹果 著名 手机 iPhone 自 出品 上市 以来 凭借 其 出众 性能 丰富 软件 和 时尚 外观 轻松 俘虏 一大批 苹果 控 是 目前 时尚 一族 首选 手机
+随着 iPhone发布 日期 日益 临近 即将 引起 一股 新 时尚 狂潮
+可是 近期 国外 有 研究 表示 现代人 生活习惯 存在 非常 严重 健康 隐患 尤其 是 睡觉 前 使用 电子产品 不但 影响 睡眠 更会 影响 正常 内分泌 甚至 导致 糖尿病 发生
+睡前 使用 电子产品
+影响 睡眠 及 内分泌
+美国 国家 睡眠 基金会 最近 发布 一项 调查 结果显示 高达 9美国 人 在 睡觉 前 接触 一个 小时 左右 数码产品 包括 电视 手机 电脑 游戏机 等
+尤其 是 随着 iPhone 及 iPad 成为 时尚 宠儿 越来越多 人 习惯 无时不刻 掏出 来 游戏 微博 甚至 上网 聊天 但 事实上 这些 电子产品 过度 使用 会 对 人 睡眠 造成 负面影响 导致 睡眠 时间 不够 以及 睡不 安稳
+哈佛大学医学院 教授 Charles
+Czeisler 博士 表示 数码产品 一般 都 具有 发光 屏幕 而 睡 前 接受 这种 强烈 光线 照射 会 提高 警觉性 抑制 褪黑激素 释放 从而 让 人 变难以 入睡
+这 可能 对 年轻一代 身体健康 认知 发展 和 生活 幸福 造成 严重后果 包括 导致 高血压 和 糖尿病
+此外 哈佛大学 去年 研究 结果 表示 夜间 光线 能 增加 癌症 风险
+因此 医疗保健 人士 建议 睡觉 前 与其 拿 着 iPhone 不如 远离 电子产品 拿 着 本 纸质 书刊 静静看到 睡着 才是 最 真实 自然 生活
+责任编辑
+张蓝飞 3健康网 www 3net 专稿 未经 书面 授权 请勿 转载 

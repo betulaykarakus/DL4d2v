@@ -1,0 +1,14 @@
+//<![CDATA[
+ac_as_id = 2586;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+ 　　糖尿病患者伴发口腔疾患的要比正常人高出2-3倍，而吸烟还会使这个患病率增加，甚至使病情恶化。所以，糖尿病患者戒烟是必须的。吸烟本身和糖尿病都会伤害牙周组织，更会进一步提高牙周病的发病率，可造成牙槽骨量的丧失，使糖尿病患者牙齿脱落的概率大大增加。尤其是2型糖尿病的患者，首先要保持血糖稳定，保持口腔卫生，早中晚都应按时、有效地刷牙、漱口，去除口腔内的细菌；对于糖尿病病程长、合并症多、血糖控制较差的患者，更应戒烟。

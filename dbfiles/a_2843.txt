@@ -1,0 +1,14 @@
+//<![CDATA[
+ac_as_id = 2586;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+ 　　法国里昂国际预防研究所首席研究员彼得·博伊尔教授表示，2型糖尿病患者罹患乳腺癌的风险增加27%，但这仅限于绝经后的女性。患有2型糖尿病的绝经前女性或患有1型糖尿病的女性罹患乳腺癌的风险并无显著增加。超重与肥胖，尤其是腰部脂肪积累过多会增加绝经后女性患乳腺癌的风险。　　英国癌症研究中心工作人员建议女性要保持适宜的体重。世界癌症研究基金会指出，少喝酒、多运动、保持适宜体重等健康生活方式都能够有效预防癌症。

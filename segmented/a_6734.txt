@@ -1,0 +1,9 @@
+if
+(
+window jQuery )
+document write script
+language ' javascript '
+src ' http
+image 3net hits jquery 1.min js ' script )
+jQuery ' a keycmd ' art ContentEvent keycmd
+' keycmd ' 

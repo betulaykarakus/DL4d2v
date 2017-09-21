@@ -1,0 +1,122 @@
+春暖花开 和 家人 朋友 一起 出游 去 呼吸 大自然 气息 缓解 工作 学习 和 生活 压力 对于 任何人 都 是 十分 惬意 事情
+但是 很多 糖尿病 病人 有 顾虑 觉自己 身体 不好 是否 就 无法 长途旅行 呢
+其实 只要 做好 充足 准备 糖尿病人 可以 享受 春游 乐趣
+糖尿病患者 出游 必备 单品
+病历 卡片
+作为 慢性病 在 发生 特殊 意外 时候 往往 语言 是 无法 表达 这 就 需要 通过 文字 形式
+尤其 是 对于 糖尿病 病人 当 发生 糖尿病 低血糖 昏迷 或者 酮症酸中毒 昏迷 时候 一张 详细 记录 自己 身份 信息 和 疾病 情况 病历 卡片 完全 可以 救 你 一命
+王总 5岁 患 糖尿病 已有 1余年 经常 因公 出差 在外
+前不久 出差 到 某 一 城市 在 进晚餐 时 由于 旅途 奔波 引起 过度 疲劳 抵抗力 下降 加之 在 火车 上 又 食用 一些 不洁 食物
+到 半夜 腹痛 难忍 呕吐 不止
+当 服务员 发现 时 王总已 昏迷不醒 立即 被 送到 医院 抢救
+医师 根据 病情 做出 诊断 是
+急性 胃炎 休克
+但经 消炎 抗休克 治疗 病情 未见好转 生命 危在旦夕
+后来 医师 在 王 总 口袋 查找 地址 和 证件 准备 与其 家属 联系 时 却 发现 一张 卡片 上面 写明 患 糖尿病 已 1年
+年前 因 饮酒 过多 曾 发生 过 酮症酸中毒
+医师 得知 这一 重要 信息 后 重新 又 仔细检查 患者 发现 上述 危险 主要 是 由 酮症酸中毒 引起 的
+医师 随即 调整 治疗 方案 经过 一段时间 治疗 后 王总 终于 转危为安 安然无恙 回到 家
+真是 一张 小 卡片 抢回 一条 命
+ppshow
+float
+left
+width
+628px
+padding
+10px
+0
+overflow
+hidden
+border
+d8e6e6
+1px
+solid
+background
+fbfdfd
+font
+12px
+宋体 "
+}
+ppshow
+a
+color
+333
+text decoration
+none
+}
+ppshow
+a
+hover
+color
+f60
+text decoration
+underline
+}
+pptitle
+flaot
+left
+width
+512px
+padding
+0
+0
+5px
+35px
+font
+14px
+宋体 "
+background
+url http
+image 3net images icongif )
+no repeat
+11px
+1px
+}
+ppshow
+picbox
+float
+left
+width
+135px
+margin
+5px
+7px
+0
+13px
+display
+inline
+}
+ppshow
+picbox
+div text align
+center
+}
+ppshow
+picbox
+pic
+img
+border
+none
+width
+135px
+height
+100px
+}
+ppshow
+picbox
+text
+line height
+16px
+padding
+5px
+0
+0
+0
+}
+精彩 推荐
+与 美女 约会 加重 糖尿病
+未来 男人 最 爱 性爱 机器人
+惊
+女白领 用 糖尿病 药 减肥
+罕见 大象 腿 重症 心脏病 患者 重获 新生
+3健康网 www 3net 专稿 未经 书面 授权 请勿 转载 

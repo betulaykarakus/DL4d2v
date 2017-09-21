@@ -1,0 +1,46 @@
+.ppshow {float:left; width:628px; padding:10px 0; overflow:hidden; border:#d8e6e6 1px solid; background:#fbfdfd; font:12px "宋体";}
+        .ppshow a {color:#333; text-decoration:none;}
+        .ppshow a:hover {color:#f60; text-decoration:underline;}
+        .pptitle {flaot:left;width:512px;padding:0 0 5px 35px; font:14px "宋体"; background:url(http://image.39.net/images/icon1/8.gif) no-repeat 11px -1px;}
+        .ppshow .picbox {float:left;width:135px;margin:5px 7px 0 13px; display:inline;}
+        .ppshow .picbox div{text-align:center;}
+        .ppshow .picbox .pic img {border:none; width:135px; height:100px;}
+        .ppshow .picbox .text {line-height:16px;padding:5px 0 0 0;}
+    
+精彩推荐
+
+
+
+鼓励大学生捐精都因上班族精液太残
+
+
+
+
+性感餐厅 小心爆了你的心血管
+
+
+
+
+万人迷贝克汉姆谢顶了？
+
+
+
+
+糖尿病性功能障碍太杯具？！
+
+
+
+　　苹果著名手机iPhone自出品上市以来凭借其出众的性能、丰富的软件和时尚的外观轻松地俘虏了一大批“苹果控”，是目前时尚一族的首选手机。
+　　随着iPhone5发布日期的日益临近，即将引起一股新的时尚狂潮。可是，近期国外有研究表示，现代人的生活习惯存在非常严重的健康隐患，尤其是睡觉前使用电子产品，不但影响睡眠，更会影响正常内分泌，甚至导致糖尿病发生!
+
+  
+　　睡前使用电子产品
+　　影响睡眠及内分泌
+　　美国国家睡眠基金会最近发布的一项调查结果显示，高达95%的美国人在睡觉前接触一个小时左右的数码产品，包括电视、手机、电脑、游戏机等。尤其是随着iPhone及iPad成为时尚宠儿，越来越多的人习惯无时不刻掏出来游戏、微博甚至上网聊天，但事实上，这些电子产品的过度使用会对人的睡眠造成负面影响，导致睡眠时间不够以及睡得不安稳。
+
+
+
+
+　　哈佛大学医学院教授Charles Czeisler博士表示，数码产品一般都具有发光屏幕，而睡前接受这种强烈的光线照射会提高警觉性，抑制褪黑激素的释放，从而让人变得难以入睡。这可能对年轻一代的身体健康、认知发展和生活幸福造成严重后果，包括导致高血压和糖尿病。此外，哈佛大学去年的研究结果表示，夜间光线能增加癌症风险。
+　　因此，医疗保健人士建议，睡觉前与其拿着iPhone，不如远离电子产品，拿着本纸质书刊静静地看到睡着才是最真实自然的生活。
+（责任编辑：张蓝飞）39健康网(www.39.net)专稿，未经书面授权请勿转载。

@@ -1,0 +1,20 @@
+脂肪肝越来越普遍，严重威胁健康。最近一期《糖尿病护理》杂志刊登加拿大曼尼托巴大学医学院布兰迪·维克洛博士的一项最新研究提示，一旦诊断为脂肪肝，就要赶紧查查血糖。
+    　　该研究共有109人参与。研究发现，脂肪肝患者出现胰岛素抵抗的风险增加55%，“代谢综合征”患病风险增高2倍。这意味着，得脂肪肝后，糖尿病离你就不远了。
+
+//<![CDATA[
+ac_as_id = 2315;
+ac_format = 0;
+ac_mode = 1;
+ac_group_id = 1;
+ac_server_base_url = "d-test.39.net/";
+//]]>
+
+var cpro_id="u1546723";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"200",rsi1:"300",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"1",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"13",rss2:"#000000",titSU:"0",ptbg:"90",piw:"0",pih:"0",ptp:"0"}
+
+
+
+
+
+　　不过，对于早期脂肪肝，经过改变饮食结构、适量运动等生活方式调整后，是可以逆转的，所以患者不必过于紧张。
+（责任编辑：韩晶）
