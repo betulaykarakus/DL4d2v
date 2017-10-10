@@ -8,16 +8,14 @@ sys.setdefaultencoding("utf-8")
 
 def findidmax():
 
-   # find how many 500's we need
-   qr = "SELECT count(id) FROM bingyin" #count(*) also works
+   # NOTE: update following xxx to your table name in your db
+   qr = "SELECT count(id) FROM xxx" #count(*) also works
    cursor.execute(qr)
    result = cursor.fetchall()
    idmx = result[0][0]
    return idmx
 def selects(idmax):
    matchlist = {}
-   #for i in range(0, idmax):
-   #   matchlist.append("":)
    x = 0 # x = # of times
    os.system("mkdir dbfiles")
    while 1000*x < idmax:
@@ -36,9 +34,7 @@ def write1000(x, matchlist):
    str3 = "\n$(function(){\n    var _ktimer = null;\n    $(\"body\").on(\"mouseenter\", \".kmda\", function(event) {\n        event.preventDefault();\n        var _left = Math.floor($(this).offset().left),\n            _top = Math.floor($(this).offset().top);\n        clearTimeout(_ktimer);\n        $(\".kmdcBox\").css({\"left\":+_left+\"px\",\"top\":_top+30+\"px\"}).show();\n    }).on(\"mouseleave\", \".kmda\", function(event) {\n        event.preventDefault();\n        clearTimeout(_ktimer);\n        _ktimer = setTimeout(function(){\n            $(\".kmdcBox\").hide();\n        },200);\n    }).on(\"mouseenter\", \".kmdcBox\", function(event) {\n        event.preventDefault();\n        clearTimeout(_ktimer);\n        $(\".kmdcBox\").show();\n    }).on(\"mouseleave\", \".kmdcBox\", function(event) {\n        event.preventDefault();\n        clearTimeout(_ktimer);\n        _ktimer = setTimeout(function(){\n            $(\".kmdcBox\").hide();\n        },200);\n    });\n});"
    str4 = "\n\n$(function(){\n	var _ktimer = null;\n	$(\".kmda\").hover(function(){\n		var _left = Math.floor($(this).offset().left),\n			_top = Math.floor($(this).offset().top);\n		clearTimeout(_ktimer);\n		$(\".kmdcBox\").css({\"left\":+_left+\"px\",\"top\":_top+30+\"px\"}).show();\n	},function(){\n		clearTimeout(_ktimer);\n		_ktimer = setTimeout(function(){\n			$(\".kmdcBox\").hide();\n		},200);\n	});\n	$(\".kmdcBox\").hover(function(){\n		clearTimeout(_ktimer);\n		$(\".kmdcBox\").show();\n	},function(){\n		clearTimeout(_ktimer);\n		_ktimer = setTimeout(function(){\n			$(\".kmdcBox\").hide();\n		},200);\n	});\n});"
    try:
-      # 执行SQL语句
       cursor.execute(sql)
-      # 获取所有记录列表
       results = cursor.fetchall()
 
       for row in results:
@@ -47,12 +43,13 @@ def write1000(x, matchlist):
          fdate = row[2]
          article = row[3].strip().replace(str1, '').replace(str2, '').replace(str3, '').replace(str4, '')
          ftype = row[4]
-
          writeonefile(article, fid)
+
          matchlist[str(fid-1)] = ftitle
+         # to be updated: should actually be "matchlist[str(fid)]"
+
          print fid
    except:
-      #print "x = ", x
       print "Error: unable to fetch data"
       return 0
 def main():
@@ -63,9 +60,9 @@ def main():
       f1.write(v.decode("utf8")+"\n")
    f1.close()
 
-
 try:
-   db = MySQLdb.connect("rm-2ze4ecy67dzly1rvao.mysql.rds.aliyuncs.com", "yutao", "Pa88word", "39tnbdata", charset="utf8")
+   # update following xxx's to your data info
+   db = MySQLdb.connect("xxx", "xxx", "xxx", "xxx", charset="utf8")
    cursor = db.cursor()
 except:
    print "unable to connect db"
