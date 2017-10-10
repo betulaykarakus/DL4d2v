@@ -19,11 +19,11 @@ def fenju():
     flist = os.listdir("dbfiles/")
     jieba.load_userdict("userdict")
     puncl = open("puntuation.txt").read().replace('\n', '')
-    for n in range(1, len(flist)+1):
+    for axtxt in flist:
         # split sentences in numbered/n.txt and save in sentences
         booleanval = 0
         line2 = ""
-        for line in open("dbfiles/a_" + str(n) + ".txt").readlines():
+        for line in open("dbfiles/" + axtxt).readlines():
             line = line.decode('UTF8').replace(u'\u3000', u'\n').replace(u'\u0020', u'\n') \
             .replace(u'\uFEFF', u'\n').replace(u'\u00A0', u'\n')
             if line == "":
@@ -50,7 +50,7 @@ def fenju():
            line2 = line2.replace(ch+u' ', u'')
 
 
-        open("segmented/a_" + str(n) + ".txt", "w").write(line2)
+        open("segmented/" + axtxt, "w").write(line2)
 
 
 def main1():

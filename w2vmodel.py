@@ -21,23 +21,65 @@ class MySentences(object):
             for line in open(os.path.join(self.dirname, fname)):
                 # "line " == each line in all files
                 yield line.decode("utf8").split()
-def make_w2v():
-    sentences = MySentences("segmented/")
+def make_w2v(folder, modelpath):
+    sentences = MySentences(folder)
     model = gensim.models.Word2Vec(sentences, size=200, window=5, min_count=5, workers=10)
-    os.system("mkdir models")
-    model.wv.save_word2vec_format("models/w2v.model", binary = False)
+    model.wv.save_word2vec_format(modelpath, binary = False)
+    return model
 
 def load_w2v():
     model = KeyedVectors.load_word2vec_format('models/w2v.model', binary = False)
+    return model
 
-def topn_sim_word(w1, topn):
+def topn_sim_word(w1, topn, model):
     return model.similar_by_word(w1, topn)
 
-def sim_btw_ws(w1, w2):
+def sim_btw_ws(w1, w2, model):
     return model.similarity(w1, w2)
-
-
+#for line in open("models/w2v.model").readlines():
+    #print line.split()[0],
 '''
+model = load_w2v()
+#print sim_btw_ws('二甲双胍'.encode("utf-8"), '糖尿病'.encode("utf-8"), model)
+#print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+
+
+
+#print sim_btw_ws('二甲双胍'.encode("ascii"), '糖尿病'.encode("ascii"), model)
+#print sim_btw_ws('二甲双胍'.decode("ascii"), '糖尿病'.decode("ascii"), model)
+#print sim_btw_ws('二甲双胍'.decode("utf-8"), '糖尿病'.decode("utf-8"), model)
+#print sim_btw_ws('二甲双胍'.decode("utf8"), '糖尿病'.decode("utf8"), model)
+
+
+print sim_btw_ws('二甲双胍'.encode("ascii"), '糖尿病'.encode("ascii"), model)
+print sim_btw_ws('二甲双胍'.encode("ascii"), '糖尿病'.encode("ascii"), model)
+
+print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
+
+
+
+print topn_sim_word(u"肥胖", 20, model)
+
+
+print topn_sim_word(u"妊娠糖尿病", 20, model)
+print topn_sim_word(u"一型糖尿病", 20, model)
+print topn_sim_word(u"二型糖尿病", 20, model)
+print topn_sim_word(u"营养", 20, model)
+print topn_sim_word(u"肾病", 20, model)
+print topn_sim_word(u"糖尿病足", 20, model)
+print topn_sim_word(u"眼病", 20, model)
+print topn_sim_word(u"心血管病", 20, model)
+print topn_sim_word(u"低血糖", 20, model)
+print topn_sim_word(u"性功能障碍", 20, model)
+print topn_sim_word(u"降糖药物", 20, model)
+
+
+#print model.similar_by_word(u"糖尿病患者", topn=10)
+
 topn_sim_word(u"糖尿病患者", topn=10)
 print model.similar_by_word(u"糖尿病", topn=10)
 

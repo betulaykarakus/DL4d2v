@@ -5,6 +5,7 @@ reload(sys)
 sys.setdefaultencoding("utf8")
 import os
 import gensim
+
 import logging
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from pprint import pprint
@@ -19,12 +20,13 @@ def make_d2v():
     articles = []
     ids = []
     docs = []
-
-    for i in range(1, len(os.listdir("segmented/"))+1):
-        article = open("segmented/a_" + str(i) + ".txt").read().split()
+    i = 0
+    for filei in os.listdir("segmented/"):
+        article = open("segmented/" + filei).read().split()
         articles.append(article)
         ids.append(str(i))
         docs.append(TaggedDocument(article, [str(i)]))
+        i +=1
 
     # initialize a model
     model = Doc2Vec(size=200, window=5, min_count=1, workers=10, alpha=0.025, min_alpha=0.01, dm=0)

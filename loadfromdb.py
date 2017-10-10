@@ -15,9 +15,9 @@ def findidmax():
    idmx = result[0][0]
    return idmx
 def selects(idmax):
-   matchlist = []
-   for i in range(0, idmax):
-      matchlist.append("")
+   matchlist = {}
+   #for i in range(0, idmax):
+   #   matchlist.append("":)
    x = 0 # x = # of times
    os.system("mkdir dbfiles")
    while 1000*x < idmax:
@@ -49,7 +49,7 @@ def write1000(x, matchlist):
          ftype = row[4]
 
          writeonefile(article, fid)
-         matchlist[fid-1] = ftitle
+         matchlist[str(fid-1)] = ftitle
          print fid
    except:
       #print "x = ", x
@@ -58,16 +58,19 @@ def write1000(x, matchlist):
 def main():
    matchlist = selects(findidmax())
    f1 = open("matchlist.txt", "w")
-   for y in range(1, len(matchlist)+1):
-      f1.write("a_"+str(y)+".txt"+"\t")
-      f1.write(matchlist[y-1].decode("utf8")+"\n")
+   for k,v in matchlist.iteritems():
+      f1.write("a_"+str(k)+".txt"+"\t")
+      f1.write(v.decode("utf8")+"\n")
    f1.close()
 
 
 try:
-   db = MySQLdb.connect("xxx", "xxx", "xxx", "xxx", charset="utf8")
+   db = MySQLdb.connect("rm-2ze4ecy67dzly1rvao.mysql.rds.aliyuncs.com", "yutao", "Pa88word", "39tnbdata", charset="utf8")
    cursor = db.cursor()
 except:
    print "unable to connect db"
 main()
 db.close()
+
+
+

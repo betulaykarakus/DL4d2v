@@ -8,7 +8,8 @@ sys.setdefaultencoding("utf-8")
 import clean_sentences
 import d2vmodel
 import w2vmodel
-
+import jieba
+from jieba.analyse import extract_tags
 
 # import other python files
 # use: printFileNumber.function1(args)
@@ -42,7 +43,18 @@ def assignNumsToFile(txtlist):
 def printmatchlist(matchlist):
     for k,v in matchlist.iteritems():
         print k.decode("utf8")+"\t"+v.decode("utf8")+"\n"
-
+def collect_highfreq_wds_to(fromdir, todir):
+    outf = open(todir, "w")
+    for x in os.listdir(fromdir):
+        if os.path.isfile(fromdir + "/"+x):
+            text = open(fromdir + "/"+x).read()
+            #for y in extract_tags(text, withWeight=True):
+                #outf.write(y[0]+" ")
+            for y in extract_tags(text, topK=100, withWeight=True):
+                print y[0]
+                print y[1]
+        outf.write("\n")
+    outf.close()
 def main():
     # write files into folder dbfiles/
     # write matchlist in matchlist.txt and get
@@ -50,13 +62,15 @@ def main():
     matchlist = clean_sentences.main1()
     makemodels()
 def makemodels():
-
-    w2vmodel.make_w2v()
-    d2vmodel.make_d2v()
+    os.system("mkdir models")
+    w2vmodel.make_w2v("segmented/", "models/w2v.model")
+    #d2vmodel.make_d2v()
     # to use wrd2vector to find similar words
     #d2vmodel.practice(doc1, doc2, doc3...)
 
-main()
+#main()
+makemodels()
+#collect_highfreq_wds_to("filetmp/", "tmpstats.txt")
 # global var here is visible in other files imported here
 # the reverse NOT work
 
