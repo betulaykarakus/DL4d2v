@@ -27,8 +27,8 @@ def make_w2v(folder, modelpath):
     model.wv.save_word2vec_format(modelpath, binary = False)
     return model
 
-def load_w2v():
-    model = KeyedVectors.load_word2vec_format('models/w2v.model', binary = False)
+def load_w2v(modelname):
+    model = KeyedVectors.load_word2vec_format(modelname, binary = False)
     return model
 
 def topn_sim_word(w1, topn, model):
@@ -38,8 +38,9 @@ def sim_btw_ws(w1, w2, model):
     return model.similarity(w1, w2)
 #for line in open("models/w2v.model").readlines():
     #print line.split()[0],
+
 '''
-model = load_w2v()
+model = load_w2v('models/w2v.model')
 #print sim_btw_ws('二甲双胍'.encode("utf-8"), '糖尿病'.encode("utf-8"), model)
 #print sim_btw_ws('二甲双胍'.encode("utf8"), '糖尿病'.encode("utf8"), model)
 

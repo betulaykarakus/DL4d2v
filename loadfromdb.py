@@ -45,9 +45,7 @@ def write1000(x, matchlist):
          ftype = row[4]
          writeonefile(article, fid)
 
-         matchlist[str(fid-1)] = ftitle
-         # to be updated: should actually be "matchlist[str(fid)]"
-
+         matchlist[str(fid)] = ftitle
          print fid
    except:
       print "Error: unable to fetch data"

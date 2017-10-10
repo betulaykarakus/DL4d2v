@@ -4,15 +4,7 @@ reload(sys)
 sys.setdefaultencoding("utf8")
 import jieba
 import os
-def getmatchlist():
-    matchlist = {}
-    fm = open("matchlist.txt", "r")
-    for eachline in fm.readlines():
-        tmplist = eachline.split(".txt\t")
-        matchlist[tmplist[0]+".txt"] = tmplist[1]
-    fm.close()
-    return matchlist
-
+import clean_sentences
 
 def fenju(foldername):
     punc = "。？！；：:;!?\n\r\b\t"
@@ -23,7 +15,7 @@ def fenju(foldername):
         # split sentences in numbered/n.txt and save in sentences
         booleanval = 0
         line2 = ""
-        for line in open("dbfiles/" + axtxt).readlines():
+        for line in open(foldername+"/" + axtxt).readlines():
             line = line.decode('UTF8').replace(u'\u3000', u'\n').replace(u'\u0020', u'\n') \
             .replace(u'\uFEFF', u'\n').replace(u'\u00A0', u'\n')
             if line == "":
@@ -51,17 +43,7 @@ def fenju(foldername):
            line2 = line2.replace(ch+u' ', u'')
 
 
-        open("segmented/" + axtxt, "w").write(line2)
+        open("segmentedfordemos/" + axtxt[:-4]+"_segmented.txt", "w").write(line2)
 
-
-def main1():
-    matchlist = getmatchlist()
-    os.system("mkdir segmented")
-    try:
-        fenju("dbfiles/")
-    except:
-        print "fenju failed"
-    return matchlist
-
-
-#main1()
+fenju("textsfordemos")
+# 分句和分词结果会在"segmentedfordemos"文件夹的"a_1fordemo_segmented.txt"文件中。

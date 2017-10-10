@@ -40,23 +40,23 @@ def make_d2v():
     model.train(docs, total_examples=len(docs), epochs=100)
     return model
 
-
-def load_d2v():
+# modelname = models/d2v.model
+def load_d2v(modelname):
     # get the trained document vector, and most similar articles
     # (after training, the results should be correct)
 
-    model2 = gensim.models.Doc2Vec.load("models/d2v.model")
+    model2 = gensim.models.Doc2Vec.load(modelname)
     return model2
 
-def output_doc_vec(model2):
-    docvec2 = model2.docvecs[9]
+def output_doc_vec(model2, id):
+    docvec2 = model2.docvecs[id]
 
-    docvecsyn2 = model2.docvecs.doctag_syn0[9]
+    docvecsyn2 = model2.docvecs.doctag_syn0[id]
 
-    print(docvec2[:5])
-    print(docvecsyn2[:5])
-def find_sim_docs(model2):
-    docsim2 = model2.docvecs.most_similar(9)
+    print(docvec2[:])
+    #print(docvecsyn2[:])
+def find_sim_docs(model2, id, n):
+    docsim2 = model2.docvecs.most_similar(id)
 
-    print(docsim2[:2])
+    print(docsim2[:n])
     #print ids[9]

@@ -55,21 +55,22 @@ def collect_highfreq_wds_to(fromdir, todir):
                 print y[1]
         outf.write("\n")
     outf.close()
+def makemodels(folder, modelpath):
+    os.system("mkdir models")
+    w2vmodel.make_w2v(folder, modelpath)
+    #d2vmodel.make_d2v()
+    # to use wrd2vector to find similar words
+    #d2vmodel.practice(doc1, doc2, doc3...)
 def main():
     # write files into folder dbfiles/
     # write matchlist in matchlist.txt and get
     os.system("python loadfromdb.py")
     matchlist = clean_sentences.main1()
     makemodels()
-def makemodels():
-    os.system("mkdir models")
-    w2vmodel.make_w2v("segmented/", "models/w2v.model")
-    #d2vmodel.make_d2v()
-    # to use wrd2vector to find similar words
-    #d2vmodel.practice(doc1, doc2, doc3...)
 
-#main()
-makemodels()
+
+main()
+makemodels("segmented/", "models/w2v.model")
 #collect_highfreq_wds_to("filetmp/", "tmpstats.txt")
 # global var here is visible in other files imported here
 # the reverse NOT work
